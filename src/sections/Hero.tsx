@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profilePhoto from 'src/assets/images/profile.jpeg';
 const Hero: React.FC = () => {
   const handleProjectView = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
@@ -10,7 +11,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.1 }}
-          src="src/assets/images/profile.jpeg"
+          src={profilePhoto}
           alt="Prabesh"
           className="w-64 h-64 rounded-full mx-auto mb-6 border-4 border-white shadow-2xl object-cover"
         />
