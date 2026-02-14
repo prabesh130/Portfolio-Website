@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import profilePhoto from 'src/assets/images/profile.jpeg';
+import profilePhoto from '../assets/images/profile.jpeg';
+
 const Hero: React.FC = () => {
   const handleProjectView = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
