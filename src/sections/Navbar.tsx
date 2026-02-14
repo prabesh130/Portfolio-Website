@@ -1,10 +1,10 @@
-import {useState} from 'react';
+// import {useState} from 'react';
 const scrollToSection=(id: string)=>{
     document.getElementById(id)?.scrollIntoView({behavior:"smooth"})
 }
 
 const Navbar=()=>{
-    const[isMenuOpen, setIsMenuOpen]=useState(false)
+    // const[isMenuOpen, setIsMenuOpen]=useState(false)
 
     return(
         <nav className='fixed top-0 left-0 right-0  bg-white shadow-md z-50'>
