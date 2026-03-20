@@ -109,7 +109,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="public/Prabesh-Babu-Adhikari-CV.pdf"
+              href="/cv.pdf"
               download
               className="text-[11px] tracking-[0.12em] uppercase text-[#5A5A55] bg-transparent border border-[#C0C0BB] px-[22px] py-[11px] rounded-sm no-underline"
             >
@@ -127,7 +127,7 @@ export default function Hero() {
             <div className="absolute -top-2.5 -right-2.5 w-[210px] h-[260px] border border-[#C8830A] rounded-sm opacity-50" />
             <div className="w-[210px] h-[260px] rounded-sm relative z-10 overflow-hidden">
               <img
-                src="public/WhatsApp Image 2026-03-20 at 9.10.33 AM.jpeg"
+                src="/photo.jpeg"
                 alt="Prabesh Babu Adhikari"
                 className="w-full h-full object-cover object-[center_15%]"
               />
@@ -174,7 +174,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/YOUR_USERNAME"
+            href="https://www.linkedin.com/in/prabesh-babu-adhikari-007431217"
             target="_blank"
             rel="noreferrer"
             className="text-[11px] tracking-[0.1em] uppercase text-[#9A9A94] no-underline hover:text-[#1E1E1C] transition-colors"
