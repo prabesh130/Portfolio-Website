@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#1E1E1C" rx="4"/>
+  <text font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="400" fill="#F0F0ED" x="3" y="20">P</text>
+  <text font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="400" fill="#C8830A" x="12" y="20">.</text>
+  <text font-family="'Playfair Display', Georgia, serif" font-size="13" font-weight="400" fill="#F0F0ED" x="17" y="20">A</text>
+</svg>

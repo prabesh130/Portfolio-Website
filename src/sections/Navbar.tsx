@@ -13,6 +13,7 @@ const Navbar=()=>{
                 <button onClick={()=> scrollToSection("Home")} className="text-gray-400 text-xl font-semibold px-2 py-2.5 hover:text-black transition focus:outline-none rounded">Home</button>
                 <button onClick={()=> scrollToSection("skills")}className="text-gray-400 text-xl font-semibold px-3 py-2.5 hover:text-black transition focus:outline-none rounded">skills</button>
                 <button onClick={()=> scrollToSection("projects")}className="text-gray-400 text-xl font-semibold px-3 py-2.5 hover:text-black transition focus:outline-none rounded">Projects</button>
+                <button onClick={()=> scrollToSection("Experience")}className="text-gray-400 text-xl font-semibold px-3 py-2.5 hover:text-black transition focus:outline-none rounded">Experience</button>
                 <button onClick={()=> scrollToSection("Education")}className="text-gray-400  text-xl font-semibold px- py-2.5 hover:text-black transition focus:outline-none rounded">Education</button>
             </div>
         </div>
