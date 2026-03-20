@@ -6,8 +6,8 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.currentTarget;
-    const data = new FormData(form);
+  
+
     // Replace with your preferred form service (Formspree, EmailJS, etc.)
     // Example with Formspree: fetch("https://formspree.io/f/YOUR_ID", { method: "POST", body: data })
     setSent(true);
